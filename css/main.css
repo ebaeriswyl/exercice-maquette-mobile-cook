@@ -2,8 +2,7 @@
 // css variables
 // ==================================== */
 
-:root {
-}
+
 
 /* ====================================
 // reset rules
@@ -48,15 +47,97 @@ body {
   max-width: 320px;
 }
 
-footer a {
+header a {
   font-size: 16px;
-  font-family: 'Libre Franklin';
+  font-family: 'Libre Franklin', sans-serif;
 }
 nav {
   display: flex;
   flex-direction: row;
-  margin-right: 80px;
-  margin-left: 80px;
+  margin-right: 70px;
+  margin-left: 70px;
   justify-content: space-between;
 }
 
+.info-recipes h1 {
+  font-family: 'Libre Franklin', sans-serif;
+  color: white;
+  background-color: red;
+  border-radius: 15px;
+  font-size: 11px;
+  font-weight: 700;
+  margin: 20px 80px;
+}
+
+.info-recipes h2 {
+  font-family:'Sorts Mill Goudy';
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 0px 30px;
+}
+
+.info-recipes {
+  text-align: center;
+}
+
+.info-recipes p {
+  font-family:'Sorts Mill Goudy';
+  font-size: 16px;
+  line-height: 1.2;
+  margin: 15px 0px;
+}
+
+.info-recipes h3 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.recipes {
+  background-color: beige;
+  padding: 25px 13px;
+}
+
+.recipes img {
+  margin-top: 13px;
+}
+
+.recipes h1 {
+  font-family:'Sorts Mill Goudy';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+article h1 {
+  font-family: 'Libre Franklin', sans-serif;
+  background-color: white;
+  padding: 18px;
+  text-align: center;
+  border: 1px gray solid;
+}
+
+footer {
+  background-color: black;
+  padding: 25px 13px;
+}
+
+footer h1 {
+  font-family:'Sorts Mill Goudy';
+  font-size: 20px;
+  line-height: 1.2;
+  color: white;
+}
+
+footer a {
+  color: white;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+}
+
+footer nav {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+}
